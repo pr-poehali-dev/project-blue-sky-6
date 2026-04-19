@@ -6,11 +6,14 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
-                <span className="text-accent-foreground font-bold">Ю</span>
+                <span className="text-accent-foreground font-bold">А</span>
               </div>
-              <span className="font-semibold">Юрист по семейному праву</span>
+              <span className="font-semibold">Хакимов Азат Равилевич</span>
             </div>
-            <p className="text-sm text-background/70">Профессиональная защита ваших интересов в суде. 12+ лет практики.</p>
+            <p className="text-sm text-background/70">Юрист по гражданским делам, г. Стерлитамак, РБ.</p>
+            <a href="tel:+79649646035" className="text-sm text-background/70 hover:text-background mt-2 block">
+              📞 +7 964 964-60-35
+            </a>
           </div>
           <div>
             <h4 className="font-semibold mb-4">Навигация</h4>
@@ -89,7 +92,7 @@ export function Footer() {
           </div>
         </div>
         <div className="border-t border-background/20 pt-8 text-center text-sm text-background/70">
-          <p>&copy; 2025 Юрист по семейному праву. Все права защищены.</p>
+          <p>&copy; 2025 Хакимов Азат Равилевич. Все права защищены. г. Стерлитамак, РБ</p>
         </div>
       </div>
     </footer>

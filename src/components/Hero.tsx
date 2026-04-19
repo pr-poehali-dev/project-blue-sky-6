@@ -19,14 +19,14 @@ export function Hero() {
           <div className="flex flex-col gap-6">
             <div className="inline-flex items-center gap-2 bg-accent/10 text-accent px-4 py-2 rounded-full w-fit">
               <span className="w-2 h-2 bg-accent rounded-full"></span>
-              <span className="text-sm font-medium">Семейное право • Защита родительских прав</span>
+              <span className="text-sm font-medium">Гражданское право • г. Стерлитамак, РБ</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight text-balance">
-              Защитите свои права в суде — с опытным юристом рядом
+              Хакимов Азат Равилевич — юрист по гражданским делам
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Развод, раздел имущества, алименты, опека над детьми. Персональная консультация
-              и сопровождение на каждом этапе дела.
+              Споры о недвижимости, долговые обязательства, защита прав потребителей,
+              наследство и трудовые споры. Консультация и сопровождение в судах Стерлитамака и РБ.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Button
@@ -66,7 +66,7 @@ export function Hero() {
             <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-accent/5 rounded-2xl"></div>
             <img
               src="https://cdn.poehali.dev/files/3cc8ed61-196c-4851-8257-1ecd66457a70.png"
-              alt="Юрист по семейному праву"
+              alt="Хакимов Азат Равилевич — юрист по гражданским делам"
               className="w-full h-full object-cover rounded-2xl"
             />
           </div>

@@ -18,8 +18,8 @@ export function FinalCTA() {
           Не затягивайте — время работает против вас
         </h2>
         <p className="text-lg text-accent-foreground/90 mb-8 max-w-2xl mx-auto leading-relaxed">
-          В семейных делах каждый день промедления может стоить вам имущества, денег или права на ребёнка.
-          Запишитесь на консультацию прямо сейчас.
+          В гражданских делах каждый день промедления может стоить вам денег, имущества или ваших прав.
+          Позвоните Азату Равилевичу или запишитесь на консультацию прямо сейчас.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button
@@ -39,8 +39,11 @@ export function FinalCTA() {
           </Button>
         </div>
         <p className="text-sm text-accent-foreground/80 mt-8">
-          Конфиденциально • Без обязательств • Первый шаг ничего не стоит
+          Конфиденциально • Без обязательств • г. Стерлитамак, РБ
         </p>
+        <a href="tel:+79649646035" className="text-accent-foreground font-bold text-xl mt-4 block hover:underline">
+          📞 +7 964 964-60-35
+        </a>
       </div>
     </section>
   )

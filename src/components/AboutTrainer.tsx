@@ -8,7 +8,7 @@ export function AboutTrainer() {
             <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-accent/5 rounded-2xl"></div>
             <img
               src="https://cdn.poehali.dev/files/3cc8ed61-196c-4851-8257-1ecd66457a70.png"
-              alt="Юрист по семейному праву"
+              alt="Хакимов Азат Равилевич"
               className="w-full h-full object-cover rounded-2xl"
             />
           </div>
@@ -18,18 +18,19 @@ export function AboutTrainer() {
             <div>
               <p className="text-accent font-semibold text-sm uppercase tracking-wide">О юристе</p>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-2 text-balance">
-                Ваш надёжный защитник в семейных делах
+                Хакимов Азат Равилевич
               </h2>
+              <p className="text-muted-foreground mt-1">Юрист по гражданским делам, г. Стерлитамак, РБ</p>
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Более 12 лет специализируюсь исключительно на семейном праве: развод, алименты,
-              раздел имущества, определение места жительства детей и лишение родительских прав.
+              Специализируюсь на гражданских делах: имущественные споры, защита прав потребителей,
+              наследство, долговые обязательства и трудовые конфликты.
             </p>
 
             <p className="text-muted-foreground leading-relaxed">
-              Представлял интересы клиентов в районных, городских и апелляционных судах.
-              Знаю, как работает система изнутри — и использую это в вашу пользу.
+              Веду дела в судах Стерлитамака и Республики Башкортостан. Каждое дело рассматриваю
+              лично — без передачи помощникам. Ценю время клиентов и говорю прямо о перспективах.
             </p>
 
             <div className="space-y-4 pt-4">
@@ -38,8 +39,8 @@ export function AboutTrainer() {
                   <span className="text-accent text-sm">&#10003;</span>
                 </div>
                 <div>
-                  <p className="font-semibold text-foreground">Член адвокатской палаты</p>
-                  <p className="text-sm text-muted-foreground">Официальный статус, лицензия</p>
+                  <p className="font-semibold text-foreground">Официальный юрист</p>
+                  <p className="text-sm text-muted-foreground">Практика в г. Стерлитамак, РБ</p>
                 </div>
               </div>
               <div className="flex gap-3">
@@ -48,7 +49,7 @@ export function AboutTrainer() {
                 </div>
                 <div>
                   <p className="font-semibold text-foreground">300+ выигранных дел</p>
-                  <p className="text-sm text-muted-foreground">В том числе резонансные случаи</p>
+                  <p className="text-sm text-muted-foreground">Гражданские и имущественные споры</p>
                 </div>
               </div>
               <div className="flex gap-3">
@@ -61,6 +62,13 @@ export function AboutTrainer() {
                 </div>
               </div>
             </div>
+
+            <a
+              href="tel:+79649646035"
+              className="inline-flex items-center gap-2 text-accent font-semibold text-lg hover:underline w-fit"
+            >
+              📞 +7 964 964-60-35
+            </a>
           </div>
         </div>
       </div>
