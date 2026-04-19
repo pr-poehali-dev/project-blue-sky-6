@@ -6,23 +6,23 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
-                <span className="text-accent-foreground font-bold">E</span>
+                <span className="text-accent-foreground font-bold">Ю</span>
               </div>
-              <span className="font-semibold">Elevate VA Academy</span>
+              <span className="font-semibold">Юрист по семейному праву</span>
             </div>
-            <p className="text-sm text-background/70">Персональное обучение 1-на-1 для будущих виртуальных ассистентов.</p>
+            <p className="text-sm text-background/70">Профессиональная защита ваших интересов в суде. 12+ лет практики.</p>
           </div>
           <div>
             <h4 className="font-semibold mb-4">Навигация</h4>
             <ul className="space-y-2 text-sm text-background/70">
               <li>
                 <a href="#about" className="hover:text-background transition">
-                  О нас
+                  О юристе
                 </a>
               </li>
               <li>
                 <a href="#benefits" className="hover:text-background transition">
-                  Преимущества
+                  Услуги
                 </a>
               </li>
               <li>
@@ -46,7 +46,7 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-background transition">
+                <a href="#faq" className="hover:text-background transition">
                   Вопросы
                 </a>
               </li>
@@ -57,7 +57,7 @@ export function Footer() {
               </li>
               <li>
                 <a href="#" className="hover:text-background transition">
-                  Условия
+                  Условия работы
                 </a>
               </li>
             </ul>
@@ -67,17 +67,17 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-background/70">
               <li>
                 <a href="#" className="hover:text-background transition">
-                  LinkedIn
+                  Telegram
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-background transition">
-                  Twitter
+                  WhatsApp
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-background transition">
-                  Instagram
+                  ВКонтакте
                 </a>
               </li>
               <li>
@@ -89,7 +89,7 @@ export function Footer() {
           </div>
         </div>
         <div className="border-t border-background/20 pt-8 text-center text-sm text-background/70">
-          <p>&copy; 2025 Elevate VA Academy. Все права защищены.</p>
+          <p>&copy; 2025 Юрист по семейному праву. Все права защищены.</p>
         </div>
       </div>
     </footer>

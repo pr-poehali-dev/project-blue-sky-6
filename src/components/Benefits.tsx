@@ -1,34 +1,34 @@
 export function Benefits() {
   const benefits = [
     {
-      icon: "👤",
-      title: "Персональное обучение",
-      description: "Индивидуальные сессии под ваш уровень и карьерные цели",
+      icon: "⚖️",
+      title: "Развод и раздел имущества",
+      description: "Защита ваших интересов при разделе квартиры, бизнеса, автомобилей и других активов",
     },
     {
-      icon: "⏰",
-      title: "Гибкое расписание",
-      description: "Занятия в удобное для вас время",
+      icon: "👶",
+      title: "Опека и место жительства детей",
+      description: "Добьёмся, чтобы ребёнок остался с вами — законно и без конфликта",
     },
     {
-      icon: "💬",
-      title: "Обратная связь в реальном времени",
-      description: "Мгновенные рекомендации и корректировки на занятиях",
+      icon: "💰",
+      title: "Алименты",
+      description: "Взыскание или оспаривание алиментов, индексация, задолженность",
     },
     {
-      icon: "🚀",
-      title: "Карьерная поддержка",
-      description: "Помощь с резюме, подготовка к собеседованиям, трудоустройство",
+      icon: "📄",
+      title: "Брачный договор",
+      description: "Составление и оспаривание брачных договоров, защита от мошенничества",
     },
     {
-      icon: "🛠️",
-      title: "Инструменты и ресурсы",
-      description: "Доступ к шаблонам, гайдам и профессиональным инструментам",
+      icon: "🏠",
+      title: "Выселение и жильё",
+      description: "Защита права на проживание, выселение бывших супругов, доля в квартире",
     },
     {
-      icon: "📈",
-      title: "Бессрочный доступ",
-      description: "Поддержка и материалы даже после завершения обучения",
+      icon: "🛡️",
+      title: "Лишение родительских прав",
+      description: "Представительство в делах об ограничении и лишении родительских прав",
     },
   ]
 
@@ -36,12 +36,12 @@ export function Benefits() {
     <section id="benefits" className="bg-background py-20 md:py-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <p className="text-accent font-semibold text-sm uppercase tracking-wide">Почему мы</p>
+          <p className="text-accent font-semibold text-sm uppercase tracking-wide">Чем помогу</p>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-2 text-balance">
-            Все для вашего успеха
+            Все вопросы семейного права
           </h2>
           <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
-            Комплексное обучение для ускорения вашей карьеры виртуального ассистента
+            Комплексная юридическая помощь — от консультации до победы в суде
           </p>
         </div>
 

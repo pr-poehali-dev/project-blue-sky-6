@@ -6,27 +6,30 @@ export function AboutTrainer() {
           {/* Image */}
           <div className="relative h-96 md:h-full min-h-96">
             <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-accent/5 rounded-2xl"></div>
-            <img src="/professional-trainer-headshot-smiling.jpg" alt="Тренер" className="w-full h-full object-cover rounded-2xl" />
+            <img
+              src="https://cdn.poehali.dev/files/3cc8ed61-196c-4851-8257-1ecd66457a70.png"
+              alt="Юрист по семейному праву"
+              className="w-full h-full object-cover rounded-2xl"
+            />
           </div>
 
           {/* Content */}
           <div className="flex flex-col gap-6">
             <div>
-              <p className="text-accent font-semibold text-sm uppercase tracking-wide">О наставнике</p>
+              <p className="text-accent font-semibold text-sm uppercase tracking-wide">О юристе</p>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-2 text-balance">
-                Ваш коуч по успеху в VA
+                Ваш надёжный защитник в семейных делах
               </h2>
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Более 10 лет опыта в виртуальном ассистировании и бизнес-операциях. Я помогла сотням
-              специалистов освоить навыки, необходимые для успеха в этой динамичной сфере.
+              Более 12 лет специализируюсь исключительно на семейном праве: развод, алименты,
+              раздел имущества, определение места жительства детей и лишение родительских прав.
             </p>
 
             <p className="text-muted-foreground leading-relaxed">
-              Моя экспертиза охватывает административный менеджмент, коммуникацию с клиентами, координацию
-              проектов и владение цифровыми инструментами. Опыт работы с компаниями Fortune 500 и стартапами
-              дает мне уникальное понимание того, что действительно ценят работодатели.
+              Представлял интересы клиентов в районных, городских и апелляционных судах.
+              Знаю, как работает система изнутри — и использую это в вашу пользу.
             </p>
 
             <div className="space-y-4 pt-4">
@@ -35,8 +38,8 @@ export function AboutTrainer() {
                   <span className="text-accent text-sm">&#10003;</span>
                 </div>
                 <div>
-                  <p className="font-semibold text-foreground">Сертифицированный коуч VA</p>
-                  <p className="text-sm text-muted-foreground">Признание лидерами отрасли</p>
+                  <p className="font-semibold text-foreground">Член адвокатской палаты</p>
+                  <p className="text-sm text-muted-foreground">Официальный статус, лицензия</p>
                 </div>
               </div>
               <div className="flex gap-3">
@@ -44,8 +47,8 @@ export function AboutTrainer() {
                   <span className="text-accent text-sm">&#10003;</span>
                 </div>
                 <div>
-                  <p className="font-semibold text-foreground">500+ выпускников</p>
-                  <p className="text-sm text-muted-foreground">95% карьерного роста</p>
+                  <p className="font-semibold text-foreground">300+ выигранных дел</p>
+                  <p className="text-sm text-muted-foreground">В том числе резонансные случаи</p>
                 </div>
               </div>
               <div className="flex gap-3">
@@ -53,8 +56,8 @@ export function AboutTrainer() {
                   <span className="text-accent text-sm">&#10003;</span>
                 </div>
                 <div>
-                  <p className="font-semibold text-foreground">Персональный подход</p>
-                  <p className="text-sm text-muted-foreground">Адаптация под ваши цели</p>
+                  <p className="font-semibold text-foreground">Персональное ведение каждого дела</p>
+                  <p className="text-sm text-muted-foreground">Без передачи помощникам</p>
                 </div>
               </div>
             </div>
