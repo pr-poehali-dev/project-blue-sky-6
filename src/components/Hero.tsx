@@ -65,7 +65,7 @@ export function Hero() {
           <div className="relative h-96 md:h-full min-h-96">
             <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-accent/5 rounded-2xl"></div>
             <img
-              src="https://cdn.poehali.dev/files/3cc8ed61-196c-4851-8257-1ecd66457a70.png"
+              src="https://cdn.poehali.dev/files/1e6c0288-28be-4a4a-a1aa-126d30e01ccd.jpg"
               alt="Хакимов Азат Равилевич — юрист по гражданским делам"
               className="w-full h-full object-cover rounded-2xl"
             />

@@ -7,7 +7,7 @@ export function AboutTrainer() {
           <div className="relative h-96 md:h-full min-h-96">
             <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-accent/5 rounded-2xl"></div>
             <img
-              src="https://cdn.poehali.dev/files/3cc8ed61-196c-4851-8257-1ecd66457a70.png"
+              src="https://cdn.poehali.dev/files/08d84337-d0b8-4269-8a69-4a732c9f1316.jpg"
               alt="Хакимов Азат Равилевич"
               className="w-full h-full object-cover rounded-2xl"
             />
@@ -57,8 +57,8 @@ export function AboutTrainer() {
                   <span className="text-accent text-sm">&#10003;</span>
                 </div>
                 <div>
-                  <p className="font-semibold text-foreground">Персональное ведение каждого дела</p>
-                  <p className="text-sm text-muted-foreground">Без передачи помощникам</p>
+                  <p className="font-semibold text-foreground">Честная оценка перспектив дела</p>
+                  <p className="text-sm text-muted-foreground">Говорю прямо — без пустых обещаний</p>
                 </div>
               </div>
             </div>

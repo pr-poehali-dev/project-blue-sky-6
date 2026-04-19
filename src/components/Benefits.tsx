@@ -54,6 +54,31 @@ export function Benefits() {
             </div>
           ))}
         </div>
+
+        {/* Photo row */}
+        <div className="grid md:grid-cols-3 gap-6 mt-16">
+          <div className="rounded-2xl overflow-hidden h-64">
+            <img
+              src="https://cdn.poehali.dev/files/dfccb0de-077e-4f2c-8439-c93b1fdff6ef.jpg"
+              alt="Юрист Хакимов — взыскание долгов"
+              className="w-full h-full object-cover hover:scale-105 transition duration-500"
+            />
+          </div>
+          <div className="rounded-2xl overflow-hidden h-64">
+            <img
+              src="https://cdn.poehali.dev/files/85825d82-5179-4485-a459-595363f5316a.png"
+              alt="Юрист Хакимов — имущественные споры"
+              className="w-full h-full object-cover hover:scale-105 transition duration-500"
+            />
+          </div>
+          <div className="rounded-2xl overflow-hidden h-64">
+            <img
+              src="https://cdn.poehali.dev/files/3cc8ed61-196c-4851-8257-1ecd66457a70.png"
+              alt="Юрист Хакимов — работа с документами"
+              className="w-full h-full object-cover hover:scale-105 transition duration-500"
+            />
+          </div>
+        </div>
       </div>
     </section>
   )
